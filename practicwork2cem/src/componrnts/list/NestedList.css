@@ -1,0 +1,23 @@
+.nested-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nested-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.nested-list-item span {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.nested-list-item input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.nested-list-item.expanded {
+    margin-left: 20px;
+}
